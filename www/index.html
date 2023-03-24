@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Strona</title>
+</head>
+<body>
+    <nav>
+        <div class="buttons">
+            <a href="#"><button class="nav-btn">start</button></a>
+            <a href="https://www.x-kom.pl" target="_blank"><button class="nav-btn">sklep</button></a>
+            <a href="https://techlipton.pl/polecane-zestawy-komputerowe/" target="_blank"><button class="nav-btn">zestawy</button></a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="recommended">
+            <h1 class="h1-title">polecane: </h1>
+            <div class="devices">
+                <div class="device"><a href="https://www.x-kom.pl/p/633465-karta-graficzna-nvidia-gainward-geforce-rtx-3060-ghost-12gb-gddr6.html" target="_blank"><img src="./images/geforce.webp" alt="karta graficzna"><p>Geforce GTX 2137</p></a></div>
+                <div class="device"><a href="https://www.x-kom.pl/p/702238-procesory-intel-core-i5-intel-core-i5-12400f.html" target="_blank"><img src="./images/intel.webp" alt="procesor"><p>Intel Core i9700k</p></a></div>
+                <div class="device"><a href="https://www.x-kom.pl/p/638549-karta-graficzna-amd-msi-radeon-rx-6700-xt-mech-2x-12gb-gddr6.html" target="_blank"><img src="./images/radeonrx.webp" alt="piekarnik"><p>Piekarnik 2000</p></a></div>
+                <div class="device"><a href="https://www.x-kom.pl/p/735703-procesor-amd-ryzen-5-amd-ryzen-5-5600.html" target="_blank"><img src="./images/ryzen.webp" alt="procesor"><p>AMD Ryzen 6969k</p></a></div>
+            </div>
+        </div>
+        <div class="forms">
+            <h1 class="h1-title">ankieta: </h1>
+            <div class="form"><p>IMIĘ: </p> <input type="text" name="" id=""></div>
+            <div class="form form2" ><p>NAZWISKO: </p> <input type="text" name="" id=""></div>
+            <div class="check">
+                <p>Jakiej marki posiadasz procesor?</p>
+                <input type="radio" name="cpu" id=""><label for="procesor">Intel</label>
+                <input type="radio" name="cpu" id=""><label for="procesor">AMD</label>
+            </div>
+            <div class="check">
+                <p>Jakiej marki posiadasz kartę graficzną?</p>
+                <input type="radio" name="kartagraficzna" id=""><label for="procesor">NVIDIA</label>
+                <input type="radio" name="kartagraficzna" id=""><label for="procesor">AMD</label>
+                <input type="radio" name="kartagraficzna" id=""><label for="procesor">Intel</label>
+            </div>
+            <div class="check">
+                <p>Jakie podzespoły chciałbyś zmienić/ulepszyć ?</p>
+                <input type="checkbox" name="cp" id=""><label for="procesor">PROCESOR</label>
+                <input type="checkbox" name="cp" id=""><label for="procesor">KARTA GRAFICZNA</label>
+                <input type="checkbox" name="cp" id=""><label for="procesor">PAMIĘĆ RAM</label>
+                <input type="checkbox" name="cp" id=""><label for="procesor">DYSK</label>
+            </div>
+            <button type="button" class="send">wyślij</button>
+        </div>
+    </div>
+    <footer><p>Wykonali imie i nazwisko</p></footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
